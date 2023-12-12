@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -109,13 +108,7 @@
                             </label>
                         </div>
                         <button type="submit">Đăng ký</button>
-                    </form>
-                </div>
             </div>
-    </section>
     <footer>
         <p>Bản quyền &copy; 2023 Con Heo Đất By Nhóm 6</p>
     </footer>
-</body>
-
-</html>
