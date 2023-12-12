@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #57c6bf;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+    margin: 14px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    display: flex;
+    color: #fff;
+}
+
+.post-content {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    font-size: 14px;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.btn-post {
+    padding: 10px 30px;
+    background-color: #ffa800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    font-weight: 500;
+    color: #fff;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='number'],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+}
+
+input[type='checkbox'] {
+    margin-right: 8px;
+}
+
+button[type='submit'] {
+    padding: 8px 16px;
+    background-color: #ffa800;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+footer {
+    text-align: center;
+}

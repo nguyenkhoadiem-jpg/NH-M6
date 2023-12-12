@@ -1,0 +1,63 @@
+body {
+    background-color: #57c6bf;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+.company-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.music-player {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transform: scale(0.9);
+    z-index: 9999;
+}
+
+.savings-intro {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+    border: 1px solid #fff; /* Bo viền cho phần nội dung */
+    padding: 20px;
+}
+
+.savings-intro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.savings-intro p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.savings-intro ul {
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.savings-intro li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+}

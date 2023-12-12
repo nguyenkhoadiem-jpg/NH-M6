@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIN CÔNG TY</title>
+    <link rel="stylesheet" href="TINCONGTY1.css">
+    <link rel="stylesheet" href="TINCONGTY1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TIN CÔNG TY</h1>
+        <img class="company-image" src="logo.png" alt="Company Image">
+        <div class="music-player">
+            <audio controls autoplay>
+                <source src="Nhạc-Xổ-Số-Miền-Bắc-Remix-Hưng-Hack-Nhạc-Remix-Cực-Hay-Tik-Tok-2021.mp3"type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="savings-intro">
+            <h2>ỨNG DỤNG TIẾT KIỆM</h2>
+            <p>Ứng dụng Tiết kiệm của chúng tôi giúp bạn quản lý tài chính một cách hiệu quả và đạt được các lợi ích
+                sau:</p>
+            <ul>
+                <li>Tạo dựng quỹ tiết kiệm dự phòng để đối phó với tình huống khẩn cấp.</li>
+                <li>Đầu tư vào cơ hội sinh lợi để tạo ra thu nhập bổ sung.</li>
+                <li>Định kỳ tiết kiệm để đạt được mục tiêu tài chính dài hạn như mua nhà, mua xe, hoặc hưu trí.</li>
+                <li>Giảm căng thẳng tài chính và đảm bảo sự ổn định trong cuộc sống.</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>Bản quyền &copy; 2023 Con Heo Đất By Nhóm 6</p>
+    </footer>
+    <script>
+        document.addEventListener("keydown", function (event) {
+            if (event.code === "Space") {
+                var audio = document.querySelector("audio");
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
