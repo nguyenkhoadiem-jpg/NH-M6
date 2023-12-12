@@ -91,6 +91,7 @@
                         </div>
                         <div class="form-group">
                             <label for="amount">Số tiền gửi:</label>
+                            <input type="number" id="">
                     <div class=" form-group">
                             <label for="term">Kỳ hạn gửi:</label>
                             <select id="term" name="term" required>
